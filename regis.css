@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 255vh;
+    width: 100%;
+    background-image: url(black-desk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: magenta;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.Registration {
+    color: antiquewhite;
+    font-size: 17px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+.regform {
+    background-color: lightgray;
+    padding: 40px 0px 20px 0px;
+    border-radius: 0px;
+    position: center;
+    box-sizing: border-box;
+    width: 980px;
+    margin: auto;
+    color: black;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.regform p {
+    color: lightslategray;
+}
+
+.firstname {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+.middlename {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+.lastname {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+.firstlabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    right: 220px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.middlelabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    right: 220px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.lastlabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    right: 220px;
+    top: 45px;
+    color: lightslategray;
+}
+
+select {
+    padding: 10px;
+    width: 10%;
+    border-radius: 5px;
+}
+
+.gender {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 18px;
+    left: 65px;
+    bottom: 40px;
+}
+
+.Gender {
+    right: 110px;
+    top: 20px;
+    line-height: 35px;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 15px;
+    width: 52%;
+}
+
+.streetaddress {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 325px;
+    font-size: 15px;
+}
+
+.streetaddresslabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 13px;
+    right: 840px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.streetaddressline2 {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 325px;
+    font-size: 15px;
+}
+
+.streetaddressline2label {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 9px;
+    right: 840px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.city {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 108px;
+    font-size: 15px;
+}
+
+.citylabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 13px;
+    right: 407px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.stateprovince {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 108px;
+    font-size: 15px;
+}
+
+.StateProvincelabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 13px;
+    right: 407px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.postalzipcode {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 325px;
+    font-size: 15px;
+}
+
+.PostalZipCodelabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 13px;
+    right: 840px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.studentemail {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 108px;
+    font-size: 12px;
+}
+
+.studentemaillabel {
+    position: relative;
+    font-size: 13px;
+    right: 370px;
+    top: 45px;
+    color: lightslategray;
+    text-transform: lowercase;
+}
+
+.Mobilenumber {
+    right: 200px;
+    bottom: 20px;
+    line-height: 35px;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 13px;
+    width: 30%;
+}
+
+.mobilenumber {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    right: 285px;
+    bottom: 30px;
+}
+
+.phonenumber {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 108px;
+    font-size: 12px;
+}
+
+.Phonenumberlabel {
+    position: relative;
+    font-size: 13px;
+    right: 370px;
+    top: 45px;
+    color: lightslategray;
+    text-transform: lowercase;
+}
+
+.worknumber {
+    right: 500px;
+    bottom: 40px;
+    line-height: 35px;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 13px;
+    width: 40%;
+    margin: 20px;
+}
+
+.Worknumber {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    right: 263px;
+    bottom: 30px;
+}
+
+.companylabel {
+    position: relative;
+    font-size: 13px;
+    right: 370px;
+    top: 45px;
+    color: lightslategray;
+}
+
+.company {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 108px;
+    font-size: 12px;
+}
+
+.course {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    line-height: 38px;
+    border-radius: 5px;
+    padding: 0 108px;
+    font-size: 12px;
+}
+
+.courselabel {
+    position: relative;
+    font-size: 15px;
+    right: 370px;
+    top: 45px;
+    color: lightslategray;
+    text-transform: capitalize;
+}
+
+.btn {
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: magenta;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    margin-right: 25px;
+}
+
+.flex-content {
+    margin-left: 25px;
+}
+
+.flex-content a {
+    margin-right: 10px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 14px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML and CSS Activity</title>
+    <link rel="stylesheet" href="quizapp.css">
+</head>
+
+<body>
+    <div class="quizapp">
+        <nav>
+            <h1><a href="Homepage.html">J.Obogne</h1>
+            <ul>
+                <li><a href="Stats.html">Stats</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="quiz app.html">Quiz App</a></li>
+                </ul>
+        </nav>
+        <form class="quiz">
+            <fieldset>
+                <legend>Student Info</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="e.g. Jhezarie Obogne" size="40">
+                <br>
+                <label for="e-mail">E-mail</label>
+                <input type="text" id="email" placeholder="e.g.jhezarieo@gmail.com" size="40">
+                <br>
+                <label for="course">Course</label>
+                <input type="text" id="course" placeholder="Please input course and block" size="40">
+                <br>
+                <label for="date">Date</label>
+                <input type="date" input placeholder="Date" class="date">
+            </fieldset>
+
+            <fieldset class="exam">
+                <legend>Exam Proper</legend>
+                <ol>
+                    <li>What does HTML stand for?</li>
+                    <input type="text" id="none" cols="30" rows="3"><br><br>
+                    <li>HTML is case sensitive?</li>
+                    <input type="radio" id="True" name="HTML" value="True">
+                    <label for="True">True</label><br>
+                    <input type="radio" id="False" name="HTML" value="False">
+                    <label for="False">False</label>
+                    <br>
+                    <br>
+                    <li>Select all legitimate CSS properties.</li>
+                    <input type="checkbox" id="font" name="CSS" value="font">
+                    <label for="font">Font</label>
+                    <br>
+                    <input type="checkbox" id="label" name="CSS" value="label">
+                    <label for="label">Label</label>
+                    <br>
+                    <input type="checkbox" id="background" name="CSS" value="background">
+                    <label for="background">Background</label>
+                    <br>
+                    <input type="checkbox" id="forms" name="CSS" value="forms">
+                    <label for="forms">Forms</label>
+                    <br>
+                    <br>
+                    <br>
+                    <li>Upload a simple navigation markup</li>
+                    <label for="files"></label>
+                    <input type="file" id="files" name="files" multiple>
+                    <br>
+                    <br>
+                    <li>Discuss if you want to be a front-end or back-end developer</li>
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                </ol>
+            </fieldset>
+
+            <br>
+            <button type="button" class="btn">Submit</button>
+            <label for="disk"></label>
+            <meter id="disk" name="disk" value=".5"></meter>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-flex">
+
+            <div class="flex-content">
+                <span>Follow me on Social Media!</span>
+                <a href="https://www.facebook.com/"><img src="facebook (2).png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/login"><img src="linkedin.png" alt=""></a>
+                <a href="https://twitter.com/?lang=en"><img src="twitter.png" alt=""></a>
+            </div>
+
+            <div class="copy">
+                <p>Copyright JO @ 2022</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
